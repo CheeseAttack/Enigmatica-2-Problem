@@ -1,0 +1,129 @@
+----------------------------------------------------------------- 
+INFO: Starting batch at 20220413:172847 
+----------------------------------------------------------------- 
+ 
+DEBUG: Current Dir is C:\Users\Kyron\Desktop\Enigmatica2Server-1.79-log4j-fix (1) -- trying to change to C:\Users\Kyron\Desktop\Enigmatica2Server-1.79-log4j-fix (1)\ 
+INFO: Checking that settings.cfg exists 
+DEBUG: settings.cfg Found. Logging full contents below: 
+;SETTINGS FOR SERVERSTART SCRIPTS
+;See "serverstart.log" in the LOGS subfolder 
+;For more details/help see: https://github.com/AllTheMods/Server-Scripts
+
+MAX_RAM=7G; 
+JAVA_ARGS=-d64 -server -XX:+AggressiveOpts -XX:+UseConcMarkSweepGC -XX:+UnlockExperimentalVMOptions -XX:+UseParNewGC -XX:+ExplicitGCInvokesConcurrent -XX:+UseFastAccessorMethods -XX:+OptimizeStringConcat -XX:+UseAdaptiveGCBoundary; 
+CRASH_COUNT=5; 
+CRASH_TIMER=600; 
+RUN_FROM_BAD_FOLDER=0; 
+IGNORE_OFFLINE=0; 
+IGNORE_JAVA_CHECK=0; 
+USE_SPONGE=0;
+HIGH_CPU_PRIORITY=0;
+
+MODPACK_NAME=Enigmatica 2;
+MCVER=1.12.2;
+FORGEVER=14.23.5.2860; 
+FORGEURL=https://files.minecraftforge.net/maven/net/minecraftforge/forge/1.12.2-14.23.5.2860/forge-1.12.2-14.23.5.2860-installer.jar; 
+INFO: Loading variables from settings.cfg  
+DEBUG: Starting variable definitions: 
+DEBUG: MC_SERVER_MAX_RAM=7G 
+DEBUG: MC_SERVER_FORGE_JAR= 
+DEBUG: MC_SERVER_SPONGE_BOOT= 
+DEBUG: MC_SERVER_JVM_ARGS=-Xmx7G -Xms3G -d64 -server -XX:+AggressiveOpts -XX:+UseConcMarkSweepGC -XX:+UnlockExperimentalVMOptions -XX:+UseParNewGC -XX:+ExplicitGCInvokesConcurrent -XX:+UseFastAccessorMethods -XX:+OptimizeStringConcat -XX:+UseAdaptiveGCBoundary 
+DEBUG: MC_SERVER_MAX_CRASH=5 
+DEBUG: MC_SERVER_CRASH_TIMER=600 
+DEBUG: MC_SERVER_IGNORE_OFFLINE=0 
+DEBUG: MC_SERVER_RUN_FROM_BAD_FOLDER=0 
+DEBUG: MC_SERVER_MCVER=1.12.2 
+DEBUG: MC_SERVER_FORGEVER=14.23.5.2860 
+DEBUG: MC_SERVER_FORGESHORT=2860 
+DEBUG: MC_SERVER_FORGEURL=https://files.minecraftforge.net/maven/net/minecraftforge/forge/1.12.2-14.23.5.2860/forge-1.12.2-14.23.5.2860-installer.jar 
+DEBUG: MC_SERVER_SPONGE=0 
+DEBUG: MC_SERVER_HIGH_PRIORITY=0 
+DEBUG: MC_SERVER_PACKNAME=Enigmatica 2 
+DEBUG: MC_SERVER_SPONGEURL= 
+DEBUG: MC_SERVER_SPONGEBOOTSTRAPURL= 
+DEBUG: MC_SERVER_ERROR_REASON=Unspecified 
+DEBUG: MC_SERVER_TMP_FLAG= 
+DEBUG: MC_SERVER_CRASH_COUNTER=1 
+DEBUG: MC_SERVER_CRASH_YYYYMMDD=20220413 
+DEBUG: MC_SERVER_CRASH_HHMMSS=172847 
+DEBUG: Current directory file listing: 
+ Volume in drive C has no label.
+ Volume Serial Number is 6C16-033F
+
+ Directory of C:\Users\Kyron\Desktop\Enigmatica2Server-1.79-log4j-fix (1)
+
+04/13/2022  05:13 PM    <DIR>          .
+04/13/2022  05:13 PM    <DIR>          ..
+04/13/2022  05:13 PM    <DIR>          config
+05/01/2018  01:41 PM             3,237 LICENSE.md
+04/13/2022  05:28 PM    <DIR>          logs
+04/13/2022  05:13 PM    <DIR>          mods
+05/01/2018  01:41 PM            12,200 README.md
+04/13/2022  05:13 PM    <DIR>          schematics
+04/13/2022  05:13 PM    <DIR>          scripts
+12/30/2019  07:53 AM               792 server.properties
+06/23/2021  01:12 PM            44,948 ServerStart.bat
+06/23/2021  01:05 PM            10,205 ServerStartLinux.sh
+03/25/2021  12:00 AM             1,919 SERVER_GUIDE.txt
+04/13/2022  05:13 PM               733 settings.cfg
+               7 File(s)         74,034 bytes
+               7 Dir(s)  493,321,084,928 bytes free
+DEBUG: JAVA version output (java -d64 -version): 
+ERROR: Could not find 64-bit Java 1.8 installed or in PATH 
+ERROR: Error flagged, reason is: ""JavaVersionOrPathError"" 
+WARN: Server startup script is exiting. Dumping current vars: 
+DEBUG: MC_SERVER_MAX_RAM=7G 
+DEBUG: MC_SERVER_FORGE_JAR= 
+DEBUG: MC_SERVER_SPONGE_BOOT= 
+DEBUG: MC_SERVER_JVM_ARGS=-Xmx7G -Xms3G -d64 -server -XX:+AggressiveOpts -XX:+UseConcMarkSweepGC -XX:+UnlockExperimentalVMOptions -XX:+UseParNewGC -XX:+ExplicitGCInvokesConcurrent -XX:+UseFastAccessorMethods -XX:+OptimizeStringConcat -XX:+UseAdaptiveGCBoundary 
+DEBUG: MC_SERVER_MAX_CRASH=5 
+DEBUG: MC_SERVER_CRASH_TIMER=600 
+DEBUG: MC_SERVER_IGNORE_OFFLINE=0 
+DEBUG: MC_SERVER_RUN_FROM_BAD_FOLDER=0 
+DEBUG: MC_SERVER_MCVER=1.12.2 
+DEBUG: MC_SERVER_FORGEVER=14.23.5.2860 
+DEBUG: MC_SERVER_FORGESHORT=2860 
+DEBUG: MC_SERVER_FORGEURL=https://files.minecraftforge.net/maven/net/minecraftforge/forge/1.12.2-14.23.5.2860/forge-1.12.2-14.23.5.2860-installer.jar 
+DEBUG: MC_SERVER_HIGH_PRIORITY=0 
+DEBUG: MC_SERVER_SPONGE=0 
+DEBUG: MC_SERVER_PACKNAME=Enigmatica 2 
+DEBUG: MC_SERVER_SPONGEURL= 
+DEBUG: MC_SERVER_SPONGEBOOTSTRAPURL= 
+DEBUG: MC_SERVER_ERROR_REASON="JavaVersionOrPathError" 
+DEBUG: MC_SERVER_TMP_FLAG= 
+DEBUG: MC_SERVER_CRASH_COUNTER=1 
+DEBUG: MC_SERVER_CRASH_YYYYMMDD=20220413 
+DEBUG: MC_SERVER_CRASH_HHMMSS=172847 
+DEBUG: Current directory file listing: 
+ Volume in drive C has no label.
+ Volume Serial Number is 6C16-033F
+
+ Directory of C:\Users\Kyron\Desktop\Enigmatica2Server-1.79-log4j-fix (1)
+
+04/13/2022  05:13 PM    <DIR>          .
+04/13/2022  05:13 PM    <DIR>          ..
+04/13/2022  05:13 PM    <DIR>          config
+05/01/2018  01:41 PM             3,237 LICENSE.md
+04/13/2022  05:28 PM    <DIR>          logs
+04/13/2022  05:13 PM    <DIR>          mods
+05/01/2018  01:41 PM            12,200 README.md
+04/13/2022  05:13 PM    <DIR>          schematics
+04/13/2022  05:13 PM    <DIR>          scripts
+12/30/2019  07:53 AM               792 server.properties
+06/23/2021  01:12 PM            44,948 ServerStart.bat
+06/23/2021  01:05 PM            10,205 ServerStartLinux.sh
+03/25/2021  12:00 AM             1,919 SERVER_GUIDE.txt
+04/13/2022  05:13 PM               733 settings.cfg
+               7 File(s)         74,034 bytes
+               7 Dir(s)  493,318,160,384 bytes free
+DEBUG: JAVA version output (java -d64 -version): 
+Unrecognized option: -d64
+Error: Could not create the Java Virtual Machine.
+Error: A fatal exception has occurred. Program will exit.
+
+BITSADMIN version 3.0
+BITS administration utility.
+(C) Copyright Microsoft Corp.
+
+0 out of 0 jobs canceled.
